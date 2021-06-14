@@ -1,0 +1,128 @@
+.secao-cabecalho {
+    font-family: 'Roboto', sans-serif;
+    background: #ed4343;
+}
+
+.cabecalho {
+    display: flex;
+    background: #ed4343;
+    top: 0;
+    left: 0; 
+    width: 100%; 
+    height: 33px;
+    position: fixed;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+    
+}
+
+.titulo__cabecalho {
+    font-size: 30px;
+    margin-left: 50px;
+    color: white;
+}
+
+.titulo__cabecalho-letra {
+    font-size: 35px;
+}
+
+.menu, .menu__lista  {
+    display: flex;
+    
+}
+
+.menu__item {
+    margin: 15px 12px 0 12px;
+    list-style: none;
+}
+
+.menu__link:hover {
+    text-decoration: none;
+    color: #A52A2A;
+}
+
+.menu__link {
+    margin-right: 1.25rem;
+    text-decoration: none;
+}
+
+.menu__link {
+    color: white;
+    margin-right: 1.25rem;
+    text-decoration: none;
+}
+
+.menu__link.ativo {
+    color: white;
+}
+
+.cabecalhoBusca {
+    position: relative;
+
+    background-color: #ed4343;
+    margin-top: 4px!important;
+    margin-right: 50px!important;
+    border:solid 2px white;
+    border-radius:10px;
+    width: 230px;
+    height: 32px;
+    margin: 25px 0 0 16px;
+} 
+  
+.txtBusca{
+    float:left;
+    color: white;
+    background-color: transparent;
+    padding-left:35px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+  
+.cabecalhoBusca img{
+    position: absolute;
+    top: 0;
+    left: 5px;
+
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media(max-width: 769px) {
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        height: 120px;
+    }
+
+    .menu__lista {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+
+    .cabecalhoBusca {
+        width: 20px;
+        height: 20px;
+        border: none;
+    }
+
+    .txtBusca {
+        width: 20px;
+        height: 70px;
+        border: none;
+    }
+
+    ::-webkit-input-placeholder {
+        color: #ed4343;
+    }
+
+}
+

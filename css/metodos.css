@@ -1,0 +1,37 @@
+.metodos, .metodos__div {
+    padding: 20px;
+    margin-top: 30px;
+    
+}
+
+.metodos__titulos {
+    text-align: center;
+    color: #363636;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 20px;
+    font-size: 42px;
+}
+
+.metodos__txt {
+    text-align: center;
+    padding: 5px;
+    
+}
+
+.metodos__txt1, .metodos__txt2 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #363636;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    
+}
+
+@media(max-width: 769px) {
+    .metodos__txt {
+        font-size: 10px;
+    }
+
+}
+

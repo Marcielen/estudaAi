@@ -1,0 +1,38 @@
+.preparacao {
+    padding: 20px;
+    margin-top: 60px;
+    text-align: center;
+    
+}
+
+.preparacao__titulo {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #363636;
+    font-size: 39px;
+}
+
+.preparacao__txt {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #363636;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+@media(max-width: 769px) {
+    .preparacao {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .preparacao__titulo {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .preparacao__txt {
+        font-size: 15px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,17 @@
+.rodape {
+    background: #ed4343;
+}
+
+.rodape__txt {
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.rodape__txt-link {
+    color: white;
+    text-decoration: none;
+}
